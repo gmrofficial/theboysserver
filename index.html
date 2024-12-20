@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Boys Game Stats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Boys Game Stats</h1>
+        <p>Real-time game data from Steam</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#stats">Stats</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to The Boys Game Stats</h2>
+            <p>Here you can see the most recent and historical game stats from Steam. Track your playtime and game progress!</p>
+        </section>
+
+        <section id="games">
+            <h2>Games</h2>
+            <p>Here is a list of games you've played:</p>
+            <ul id="game-list">
+                <!-- Games will be listed here -->
+            </ul>
+        </section>
+
+        <section id="stats">
+            <h2>Game Stats</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>App ID</th>
+                        <th>Playtime (Minutes)</th>
+                    </tr>
+                </thead>
+                <tbody id="game-stats-body">
+                    <!-- Game stats will be populated here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Boys. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
